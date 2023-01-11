@@ -17,6 +17,7 @@ const Home = () => {
 			}else{setlistaTareas([...listaTareas,tareas])
 			console.log(listaTareas)
 			setnoTareas("visually-hidden")
+			setTareas("")
 		}
 			
 		}
